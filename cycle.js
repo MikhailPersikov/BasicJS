@@ -100,12 +100,18 @@ while (true) {
   
   let value = +prompt('Please type a number greater than 100')
 
-  if (value > 100 || !value) {
+  if (value > 100) {
     alert('Congratulation')
     break;
+  } else if (!value){
+    alert('Okey')
+    break;
   } else if (value < 100) alert('Try again')
-
 }
-//Но одно меня смущает, не знаю как вывести алерт с текстом "okey" если клиент отменит prompt)
+//Вот вариант с лерна 
+let num;
 
+do {
+  num = prompt("Введите число больше 100?", 0);
+} while (num <= 100 && num);
 //-------------------------------------------------------------------------------------------------------

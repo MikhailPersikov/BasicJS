@@ -52,16 +52,17 @@ for (  i = 2; i <= 10; i++){
 
 // Для этого решения я подсмотрел инфу в лерне, где выводятся нечетные числа. 
 //Так же разобрался как работает деление по модулю. Пример можно наблюдать ниже. 
+
 console.log(1%2,"1")
-console.log(2%2,"2")
-console.log(3%2,"3")
-console.log(4%2,"4")
-console.log(5%2,"5")
-console.log(6%2,"6")
-console.log(7%2,"7")
-console.log(8%2,"8")
-console.log(9%2,"9")
-console.log(10%2,"10")
+console.log(2%2,"0") 
+console.log(3%2,"1")
+console.log(4%2,"0")
+console.log(5%2,"1")
+console.log(6%2,"0")
+console.log(7%2,"1")
+console.log(8%2,"0")
+console.log(9%2,"1")
+console.log(10%2,"0")
 
 
 // Придумал второе решение)

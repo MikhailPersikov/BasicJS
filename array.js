@@ -70,23 +70,25 @@
 
 //Решение
 
-// function sumInput() {
-//     const arr = []
-//     while (true) { 
-//         let inputValue = +prompt('enter a number');
-//         if(inputValue == null || inputValue == '' || isNaN(inputValue)) break;
-//         arr.push(inputValue)
-//     }
+function sumInput() {
+    const arr = []
+    while (true) { 
+        let inputValue = +prompt('enter a number');
+        if(inputValue == null || inputValue == '' || isNaN(inputValue)) break;
+        arr.push(inputValue)
+    }
     
-//     let sum = 0;
+    let sum = 0;
 
-//     for(let key of arr){
-//         sum += key;
-//     }
+    for(let key of arr){
+        sum += key;
+    }
 
-//     return sum
-// }
+    return sum
+}
 
 // console.log(sumInput());
 
 //------------------------------------------------------------------------------------------
+
+//5) 
